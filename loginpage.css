@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.parrent{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,126,227,1) 46%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+div.child{
+    background: rgb(254,185,37);
+    background: linear-gradient(90deg, rgba(254,185,37,1) 0%, rgba(153,244,182,1) 48%, rgba(154,147,5,1) 97%);
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+}
+div.udemy img{
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+}
+div.Welcome h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.inp{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inpp{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    }
+
+.inp1{
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-top: 30px;
+    width: 300px;
+    height: 35px;   
+}
+.inp2{
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 10px;
+    margin-top: 30px;
+    width: 270px;
+    height: 35px;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px
+}
+.eye {margin-top: 30px;
+    border-radius: 0px 10px 10px 0px;
+    width: 38px;
+    height: 38px;
+    
+}
+
+.eye :hover{
+    cursor: pointer;
+}
+.eyeimg {   border-radius: 0px 10px 10px 0px;
+    width: 35px;
+    height: 35px;
+    
+}
+.submit{
+    border-radius: 15px;
+margin-top: 30px;
+width: 200px;
+height: 30px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(128, 195, 253);
+}
+.Button :nth-child(1){
+    margin-top: 20px;
+    margin-left: 125px;
+    width: 180px;
+    height: 25px;
+    }
